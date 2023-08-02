@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class="signuppage">
+
+           
+
+            <p>Welcome Back</p>
+            <h2 id="sign">Create new account</h2>
+    
+            <label for="name">First name :</label>
+            <input type="text" id="firstName" class="fname" placeholder="Enter here">
+            <label for="name">Last name :</label>
+            <input type="text" id="lastName" class="lname" placeholder="Enter here">
+            <label for="email">Your email :</label>
+            <input type="email" id="email" class="email" placeholder="Enter here">
+            <label for="password">password :</label>
+            <input type="password" id="password" class="pass" placeholder="Enter here">
+            <label for="cpassword">Confirm Pasword :</label>
+            <input type="password" id="confirmPassword" class="cpass" placeholder="Enter here">
+    
+            <button type="button" id="signupBtn">Sign Up</button>
+    
+            
+        </form>
+        <div class="bottom">
+             <div id="error-message" style="color: red;"></div>
+        <p>already have an account?<span id="loginRedirect"> Log In</span></p>
+        </div>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
