@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shop.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="navbar">
+                <div class="left-side"><h3><a href="">Shop</a></h3></div>
+                <div class="right-side">
+                    <a href="../shop/shop.html">Home</a>
+                    <a href="../profile/index.html">Profile</a>
+                    <a href="../mycart/index.html">My Cart</a>
+                    <a href="#" id="logout">log out</a>
+                </div>
+            </div>
+        </nav>
+        <div class="main-content">
+            <div class="slider">
+                <div class="colors s">
+                    <h3>Colors</h3>
+                    <div class="checkbox">
+                        <input type="checkbox" id="red" name="red">
+                        <label for="red"> red</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="blue" name="blue">
+                        <label for="blue">blue</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="green" name="green">
+                        <label for="green">green</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="black" name="black">
+                        <label for="black">black</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="white" name="white">
+                        <label for="white">white</label>
+                    </div>
+                    
+    
+                </div>
+                <hr>
+                <div class="size s">
+                    <h3>Size</h3>
+                    <div class="checkbox">
+                        <input type="checkbox" id="s" name="s" value="s">
+                        <label for="s"> S</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="m" name="m" value="m">
+                        <label for="m">M</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="l" name="l" value="l">
+                        <label for="l">L</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="xl" name="xl" value="xl">
+                        <label for="xl">XL</label>
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="rating s">
+                    <h3>Rating</h3>
+                    <input type="range" min="1" max="5" class="slide" id="myRange">
+                    <div class="rating-number">
+                        <span>1</span><span>5</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="price-range s">
+                    <h3>Price Range</h3>
+                    <div class="pricerange">
+                        <input type="checkbox" id="pr1" name="pr1">
+                        <label for="pr1">$0 to $25</label><br>
+                        <input type="checkbox" id="pr2" name="pr2">
+                        <label for="pr2">$25 to $50</label><br>
+                        <input type="checkbox" id="pr3" name="pr3">
+                        <label for="pr3">$50 to $100</label><br>
+                        <input type="checkbox" id="pr4" name="pr4">
+                        <label for="pr4">$100 onwards</label>
+                    </div>
+                    
+                </div>
+                <hr><br>
+                <button id="applybtn">Apply Filter</button>
+            </div>
+            <main class="main">
+                <div class="search">
+                    <input type="search" id="searchInput" placeholder="search">
+                </div>
+                <div class="categories">
+                    <button class="cat cat1">All</button>
+                    <button class="cat cat2">Mens</button>
+                    <button class="cat cat3">Womens</button>
+                    <button class="cat cat4">Jewelery</button>
+                    <button class="cat cat5">Electronics</button>
+                </div>
+                <div class="stores">
+                    <div class="men">
+                        <h2 class="men-heading">Men's Clothings</h2>
+                        <div class="mens"> 
+                        </div>
+                    </div>
+                    <div class="women">
+                        <h2 class="women-heading">WoMen's Clothings</h2>
+                        <div class="womens"> 
+                        </div>
+                    </div>
+                    <div class="electronic">
+                        <h2 class="electronics-heading">Electronics</h2>
+                        <div class="electronics"> 
+                        </div>
+                    </div>
+                    <div class="jeweleri">
+                        <h2 class="jewelry-heading">Jewelery</h2>
+                        <div class="jewelery"> 
+                        </div>
+                    </div>
+                    
+                </div>
+            </main>
+        </div>
+    </div>
+        <script src="./shop.js"></script>
+        <script src="https://kit.fontawesome.com/082f480a10.js" crossorigin="anonymous"></script>
+</body>
+</html>
