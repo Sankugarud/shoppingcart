@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navabr */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: black;
+    color: rgb(226, 219, 219);
+}
+.rightside{
+    display: flex;
+    gap: 30px;
+}
+.rightside a{
+    color: rgb(178,178,178);
+    text-decoration: none;
+}
+
+
+/* front page */
+
+.frontpage{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cartimg{
+    width: 40%;
+}
+.allbtn{
+    display: flex;
+    gap: 30px;
+}
+#loginbtn{
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#signup{
+    height: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+}
+#signup:hover{
+    background-color: black;
+    color: white;
+}
+#loginbtn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
